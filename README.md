@@ -36,10 +36,10 @@ In the competitive landscape of the telecommunications industry, retaining custo
 The dataset is sourced from Kaggle and contains details about customer demographics, location, tenure, subscription services, and their status for the quarter. The primary dataset consists of 7043 rows and 38 columns, representing individual customers from a telecommunications company in California during Q2 2022.
 
 ### Data Files
-- `telecom_customer_churn.csv`: Main dataset containing customer details and their churn status.
-- `telecom_data_dictionary.csv`: Describes each column in the main dataset.
-- `telecom_zipcode_population.csv`: Provides population data for each zip code.
-- `cleaned_customer_df.csv`: Processed dataset used for analysis after data cleaning and preprocessing.
+- `data/raw/telecom_customer_churn.csv`: Main dataset containing customer details and their churn status.
+- `data/raw/telecom_data_dictionary.csv`: Describes each column in the main dataset.
+- `data/raw/telecom_zipcode_population.csv`: Provides population data for each zip code.
+- `data/processed/cleaned_customer_df.csv`: Processed dataset used for analysis after data cleaning and preprocessing.
 
 ### Data Cleaning
 The data was cleaned following these steps:
@@ -76,8 +76,8 @@ Telecom-Customer-Churn-Analysis/
 │   │   └── telecom_zipcode_population.csv
 │   └── processed/
 │       └── cleaned_customer_df.csv
-├── notebooks/
-│   ├── EDA.ipynb
-│   └── Modeling.ipynb
+├── EDA.ipynb
+├── Modeling.ipynb
+├── Telecom_Customer_Churn_Analysis_Report.doc
 ├── README.md
 ├── LICENSE
